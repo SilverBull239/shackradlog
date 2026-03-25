@@ -1,0 +1,515 @@
+prefix,entity,itu_zone,cq_zone
+VP9,Bermuda,5,5
+VP2E,Anguilla,8,11
+VP2M,Montserrat,8,11
+VP2V,British Virgin Islands,8,11
+VP5,Turks & Caicos Islands,8,11
+VP6,Pitcairn Island,63,32
+VP8,Falkland Islands,16,13
+VP8/G,South Georgia Island,73,38
+VP8/H,South Sandwich Islands,73,38
+VP8/O,South Orkney Islands,73,38
+VP8/S,South Shetland Islands,73,38
+VK0M,Macquarie Island,60,29
+VK0H,Heard Island,68,29
+VK9C,Cocos (Keeling) Islands,54,29
+VK9L,Lord Howe Island,60,30
+VK9M,Mellish Reef,56,30
+VK9N,Norfolk Island,60,32
+VK9W,Willis Island,55,30
+VK9X,Christmas Island,54,29
+ZL7,Chatham Islands,60,32
+ZL8,Kermadec Islands,62,32
+ZL9,Auckland & Campbell Islands,60,32
+ZD7,St. Helena,66,36
+ZD8,Ascension Island,66,36
+ZD9,Tristan da Cunha,66,38
+ZS8,Prince Edward & Marion Islands,67,38
+3Y/B,Bouvet Island,67,38
+3Y/P,Peter 1 Island,73,12
+CE9,Antarctica,73,38
+RI1ANT,Antarctica,73,38
+VP8/B,South Georgia Island,73,38
+FT5W,Crozet Island,68,38
+FT5X,Kerguelen Islands,68,39
+FT5Z,Amsterdam & St. Paul Islands,68,39
+FR/E,Europa Island,53,39
+FR/G,Glorioso Islands,53,39
+FR/J,Juan de Nova,53,39
+FR/T,Tromelin Island,53,39
+JD/M,Minami Torishima,45,27
+JD/O,Ogasawara,45,25
+KH1,Baker & Howland Islands,62,31
+KH2,Guam,64,27
+KH3,Johnston Island,61,31
+KH4,Midway Island,61,31
+KH5,Palmyra & Jarvis Islands,62,31
+KH5K,Kingman Reef,61,31
+KH6,Hawaii,61,31
+KH7K,Kure Island,61,31
+KH8,American Samoa,62,32
+KH9,Wake Island,65,27
+KH0,Mariana Islands,64,27
+KP1,Navassa Island,8,11
+KP2,US Virgin Islands,8,11
+KP4,Puerto Rico,8,11
+KP5,Desecheo Island,8,11
+NH7,Hawaii,61,31
+NL7,Alaska,1,1
+WH2,Guam,64,27
+WH6,Hawaii,61,31
+WL7,Alaska,1,1
+WP4,Puerto Rico,8,11
+PY0F,Fernando de Noronha,11,13
+PY0S,St. Peter & St. Paul Rocks,11,13
+PY0T,Trindade & Martim Vaz Islands,11,13
+CE0X,San Felix Islands,14,12
+CE0Y,Easter Island,63,12
+CE0Z,Juan Fernandez Islands,14,12
+XF4,Revillagigedo,7,10
+CY0,Sable Island,5,5
+CY9,St. Paul Island,5,5
+FO/A,Austral Islands,63,32
+FO/C,Clipperton Island,7,10
+FO/M,Marquesas Islands,62,31
+FK/C,Chesterfield Islands,56,28
+E5/N,North Cook Islands,62,32
+E5/S,South Cook Islands,62,32
+VU4,Andaman & Nicobar Islands,26,26
+VU7,Lakshadweep Islands,22,26
+9M0,Spratly Islands,54,26
+9M2,West Malaysia,54,28
+9M6,East Malaysia,54,28
+9M8,East Malaysia,54,28
+HS,Thailand,49,26
+XW,Laos,49,26
+XZ,Myanmar,49,26
+A4,Oman,21,21
+A5,Bhutan,41,26
+A6,United Arab Emirates,21,21
+A7,Qatar,21,21
+A9,Bahrain,21,21
+AP,Pakistan,41,21
+BV,Taiwan,44,24
+BV9P,Pratas Island,44,24
+BY,China,44,24
+C2,Nauru,65,28
+C3,Andorra,14,14
+C5,The Gambia,35,35
+C6,Bahamas,8,11
+C9,Mozambique,53,37
+CE,Chile,14,12
+CM,Cuba,8,11
+CO,Cuba,8,11
+CP,Bolivia,10,10
+CT,Portugal,14,14
+CT3,Madeira Islands,36,33
+CU,Azores,36,14
+CX,Uruguay,14,13
+D2,Angola,52,36
+D4,Cape Verde,35,35
+D6,Comoros,53,39
+DL,Germany,28,14
+DU,Philippines,50,27
+E3,Eritrea,48,34
+E4,Palestine,39,20
+E7,Bosnia-Herzegovina,28,15
+EA,Spain,14,14
+EA6,Balearic Islands,14,14
+EA8,Canary Islands,36,33
+EA9,Ceuta & Melilla,33,33
+EI,Ireland,27,14
+EK,Armenia,29,21
+EL,Liberia,35,35
+EP,Iran,40,21
+ER,Moldova,16,16
+ES,Estonia,29,15
+ET,Ethiopia,48,34
+EU,Belarus,16,16
+EW,Belarus,16,16
+EX,Kyrgyzstan,30,17
+EY,Tajikistan,30,17
+EZ,Turkmenistan,30,17
+F,France,27,14
+FG,Guadeloupe,8,11
+FH,Mayotte,53,39
+FJ,Saint Barthelemy,8,11
+FK,New Caledonia,56,28
+FM,Martinique,8,11
+FO,French Polynesia,63,31
+FP,St. Pierre & Miquelon,9,5
+FR,Reunion Island,53,39
+FS,Saint Martin,8,11
+FT8W,Crozet Island,68,38
+FW,Wallis & Futuna Islands,62,28
+FY,French Guiana,12,9
+G,England,27,14
+GD,Isle of Man,27,14
+GI,Northern Ireland,27,14
+GJ,Jersey,27,14
+GM,Scotland,27,14
+GU,Guernsey,27,14
+GW,Wales,27,14
+H4,Solomon Islands,51,28
+H40,Temotu Province,51,28
+HA,Hungary,28,15
+HB,Switzerland,28,14
+HB0,Liechtenstein,28,14
+HC,Ecuador,10,10
+HC8,Galapagos Islands,10,10
+HH,Haiti,8,11
+HI,Dominican Republic,8,11
+HK,Colombia,9,9
+HK0/A,Malpelo Island,9,9
+HK0/M,San Andres & Providencia,7,7
+HL,South Korea,44,25
+HO,Panama,7,7
+HP,Panama,7,7
+HR,Honduras,7,7
+HV,Vatican,28,15
+HZ,Saudi Arabia,39,21
+I,Italy,28,15
+IS,Sardinia,28,15
+IS0,Sardinia,28,15
+IT9,Sicily,28,15
+J2,Djibouti,48,34
+J3,Grenada,8,11
+J5,Guinea-Bissau,35,35
+J6,St. Lucia,8,11
+J7,Dominica,8,11
+J8,St. Vincent,8,11
+JA,Japan,45,25
+JT,Mongolia,32,23
+JW,Svalbard,18,1
+JX,Jan Mayen,18,1
+JY,Jordan,39,20
+K,United States,6,5
+W,United States,6,5
+N,United States,6,5
+AA,United States,6,5
+KA,United States,6,5
+KB,United States,6,5
+KC,United States,6,5
+KD,United States,6,5
+KE,United States,6,5
+KF,United States,6,5
+KG,United States,6,5
+KI,United States,6,5
+KJ,United States,6,5
+KK,United States,6,5
+KM,United States,6,5
+KN,United States,6,5
+KO,United States,6,5
+KQ,United States,6,5
+KR,United States,6,5
+KS,United States,6,5
+KT,United States,6,5
+KU,United States,6,5
+KV,United States,6,5
+KX,United States,6,5
+KY,United States,6,5
+KZ,United States,6,5
+WA,United States,6,5
+WB,United States,6,5
+WC,United States,6,5
+WD,United States,6,5
+WE,United States,6,5
+WF,United States,6,5
+WG,United States,6,5
+WI,United States,6,5
+WJ,United States,6,5
+WK,United States,6,5
+WM,United States,6,5
+WN,United States,6,5
+WO,United States,6,5
+WQ,United States,6,5
+WR,United States,6,5
+WS,United States,6,5
+WT,United States,6,5
+WU,United States,6,5
+WV,United States,6,5
+WX,United States,6,5
+WY,United States,6,5
+WZ,United States,6,5
+LA,Norway,18,14
+LB,Norway,18,14
+LC,Norway,18,14
+LD,Norway,18,14
+LE,Norway,18,14
+LF,Norway,18,14
+LG,Norway,18,14
+LH,Norway,18,14
+LI,Norway,18,14
+LJ,Norway,18,14
+LK,Norway,18,14
+LL,Norway,18,14
+LM,Norway,18,14
+LN,Norway,18,14
+LU,Argentina,14,13
+LW,Argentina,14,13
+LX,Luxembourg,28,14
+LY,Lithuania,29,15
+LZ,Bulgaria,28,20
+M,England,27,14
+MD,Isle of Man,27,14
+MI,Northern Ireland,27,14
+MJ,Jersey,27,14
+MM,Scotland,27,14
+MU,Guernsey,27,14
+MW,Wales,27,14
+NH,Hawaii,61,31
+OA,Peru,10,10
+OB,Peru,10,10
+OC,Peru,10,10
+OD,Lebanon,39,20
+OE,Austria,28,15
+OF,Finland,18,18
+OG,Finland,18,18
+OH,Finland,18,18
+OH0,Aland Islands,18,18
+OJ0,Market Reef,18,18
+OK,Czech Republic,28,15
+OL,Czech Republic,28,15
+OM,Slovakia,28,15
+ON,Belgium,27,14
+OO,Belgium,27,14
+OP,Belgium,27,14
+OQ,Belgium,27,14
+OR,Belgium,27,14
+OS,Belgium,27,14
+OT,Belgium,27,14
+OU,Denmark,18,14
+OV,Denmark,18,14
+OW,Faroe Islands,18,14
+OX,Greenland,5,5
+OY,Faroe Islands,18,14
+OZ,Denmark,18,14
+P2,Papua New Guinea,51,28
+P4,Aruba,9,9
+P5,North Korea,44,25
+PA,Netherlands,27,14
+PB,Netherlands,27,14
+PC,Netherlands,27,14
+PD,Netherlands,27,14
+PE,Netherlands,27,14
+PF,Netherlands,27,14
+PG,Netherlands,27,14
+PH,Netherlands,27,14
+PI,Netherlands,27,14
+PJ2,Curacao,9,9
+PJ4,Bonaire,9,9
+PJ5,Sint Eustatius & Saba,8,11
+PJ7,Sint Maarten,8,11
+PY,Brazil,11,11
+PZ,Suriname,12,9
+R,Russia,16,16
+RA,Russia,16,16
+RK,Russia,16,16
+RM,Russia,16,16
+RN,Russia,16,16
+RO,Russia,16,16
+RQ,Russia,16,16
+RT,Russia,16,16
+RU,Russia,16,16
+RV,Russia,16,16
+RW,Russia,16,16
+RX,Russia,16,16
+RY,Russia,16,16
+RZ,Russia,16,16
+S0,Western Sahara,33,33
+S2,Bangladesh,41,26
+S5,Slovenia,28,15
+S7,Seychelles,53,39
+S9,Sao Tome & Principe,52,36
+SM,Sweden,18,14
+SP,Poland,28,15
+ST,Sudan,34,34
+SU,Egypt,38,33
+SV,Greece,28,20
+SV5,Dodecanese,28,20
+SV9,Crete,28,20
+T2,Tuvalu,65,31
+T30,West Kiribati,65,31
+T31,Central Kiribati,62,31
+T32,East Kiribati,61,31
+T33,Banaba Island,65,31
+T5,Somalia,48,34
+T7,San Marino,28,15
+T8,Palau,64,27
+TA,Turkey,39,20
+TF,Iceland,17,1
+TG,Guatemala,7,7
+TI,Costa Rica,7,7
+TI9,Cocos Island,7,7
+TJ,Cameroon,47,36
+TK,Corsica,28,15
+TL,Central Africa,47,36
+TN,Republic of Congo,52,36
+TR,Gabon,52,36
+TT,Chad,47,34
+TU,Ivory Coast,35,35
+TY,Benin,35,35
+TZ,Mali,35,35
+UA,Russia,16,16
+UA2,Kaliningrad,29,15
+UA9,Russia (Asiatic),20,17
+UA0,Russia (Asiatic),20,17
+UB,Russia,16,16
+UC,Russia,16,16
+UD,Russia,16,16
+UE,Russia,16,16
+UF,Russia,16,16
+UG,Russia,16,16
+UH,Russia,16,16
+UI,Russia,16,16
+UK,Uzbekistan,30,17
+UN,Kazakhstan,30,17
+UO,Kazakhstan,30,17
+UQ,Kazakhstan,30,17
+UR,Ukraine,16,16
+US,Ukraine,16,16
+UT,Ukraine,16,16
+UU,Ukraine,16,16
+UV,Ukraine,16,16
+UW,Ukraine,16,16
+UX,Ukraine,16,16
+UY,Ukraine,16,16
+UZ,Ukraine,16,16
+V2,Antigua & Barbuda,8,11
+V3,Belize,7,7
+V4,St. Kitts & Nevis,8,11
+V5,Namibia,57,38
+V6,Micronesia,65,27
+V7,Marshall Islands,65,31
+V8,Brunei,54,28
+VE,Canada,4,5
+VA,Canada,4,5
+VC,Canada,4,5
+VG,Canada,4,5
+VO,Canada,4,5
+VY,Canada,4,5
+VJ,Australia,55,29
+VK,Australia,55,29
+VM,Australia,55,29
+VN,Australia,55,29
+VQ9,Chagos Islands,41,39
+VR,Hong Kong,44,24
+VS6,Hong Kong,44,24
+VU,India,41,26
+VK2,Australia,55,29
+VK3,Australia,55,29
+VK4,Australia,55,29
+VK5,Australia,55,29
+VK6,Australia,55,29
+VK7,Australia,55,29
+VK8,Australia,55,29
+WP2,US Virgin Islands,8,11
+WP3,Puerto Rico,8,11
+X3,Kosovo,28,15
+XE,Mexico,6,7
+XF,Mexico,6,7
+XT,Burkina Faso,35,35
+XU,Cambodia,49,26
+XV,Vietnam,49,26
+XX9,Macao,44,24
+XY,Myanmar,49,26
+YA,Afghanistan,40,21
+YB,Indonesia,54,28
+YC,Indonesia,54,28
+YD,Indonesia,54,28
+YE,Indonesia,54,28
+YF,Indonesia,54,28
+YG,Indonesia,54,28
+YH,Indonesia,54,28
+YI,Iraq,39,21
+YJ,Vanuatu,56,28
+YK,Syria,39,20
+YL,Latvia,29,15
+YN,Nicaragua,7,7
+YO,Romania,28,20
+YP,Romania,28,20
+YQ,Romania,28,20
+YR,Romania,28,20
+YS,El Salvador,7,7
+YT,Serbia,28,15
+YU,Serbia,28,15
+YV,Venezuela,9,9
+YW,Venezuela,9,9
+YX,Venezuela,9,9
+Z2,Zimbabwe,53,38
+Z3,North Macedonia,28,15
+Z6,Kosovo,28,15
+Z8,South Sudan,48,34
+ZA,Albania,28,15
+ZB,Gibraltar,14,14
+ZC4,UK Sovereign Base Areas on Cyprus,39,20
+ZD6,Zambia,53,37
+ZE,Zimbabwe,53,38
+ZF,Cayman Islands,8,11
+ZK3,Tokelau Islands,62,31
+ZL,New Zealand,60,32
+ZM,New Zealand,60,32
+ZP,Paraguay,11,11
+ZR,South Africa,57,38
+ZS,South Africa,57,38
+ZT,South Africa,57,38
+ZU,South Africa,57,38
+ZV,Brazil,11,11
+ZW,Brazil,11,11
+ZX,Brazil,11,11
+ZY,Brazil,11,11
+ZZ,Brazil,11,11
+4J,Azerbaijan,29,21
+4K,Azerbaijan,29,21
+4L,Georgia,29,21
+4O,Montenegro,28,15
+4S,Sri Lanka,41,26
+4U,United Nations HQ,28,14
+4W,Timor-Leste,54,28
+4X,Israel,39,20
+5A,Libya,33,33
+5B,Cyprus,39,20
+5H,Tanzania,53,37
+5N,Nigeria,46,35
+5R,Madagascar,53,39
+5T,Mauritania,35,35
+5U,Niger,46,35
+5V,Togo,35,35
+5W,Samoa,62,32
+5X,Uganda,48,37
+5Y,Kenya,48,37
+5Z,Kenya,48,37
+6W,Senegal,35,35
+6Y,Jamaica,8,11
+7O,Yemen,21,21
+7P,Lesotho,57,38
+7Q,Malawi,53,37
+7R,Algeria,33,33
+7T,Algeria,33,33
+7U,Algeria,33,33
+7V,Algeria,33,33
+7W,Algeria,33,33
+7X,Algeria,33,33
+7Y,Algeria,33,33
+7Z,Saudi Arabia,39,21
+8P,Barbados,8,11
+8Q,Maldives,41,26
+8R,Guyana,12,9
+9A,Croatia,28,15
+9G,Ghana,35,35
+9H,Malta,28,15
+9I,Zambia,53,37
+9J,Zambia,53,37
+9K,Kuwait,21,21
+9L,Sierra Leone,35,35
+9M,Malaysia,54,28
+9N,Nepal,42,26
+9Q,Democratic Republic of Congo,52,36
+9R,Democratic Republic of Congo,52,36
+9T,Democratic Republic of Congo,52,36
+9U,Burundi,52,36
+9V,Singapore,54,28
+9W,Malaysia,54,28
+9X,Rwanda,52,36
+9Y,Trinidad & Tobago,8,9
+9Z,Trinidad & Tobago,8,9
