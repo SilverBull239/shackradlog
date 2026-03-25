@@ -475,6 +475,67 @@ def _best_autofill(rows: list[sqlite3.Row], exact: str) -> sqlite3.Row | None:
     return rows[0]
 
 
+def _post_to_dashboard(contact: dict) -> None:
+    """Post a single contact to the ham shack dashboard API. Silently fails if unavailable."""
+    import urllib.request, urllib.error, json
+    from pathlib import Path
+
+    conf_path = Path.home() / ".shackradlog/dashboard.conf"
+    if not conf_path.exists():
+        return
+
+    conf = {}
+    for line in conf_path.read_text().splitlines():
+        line = line.strip()
+        if "=" in line and not line.startswith("#"):
+            k, v = line.split("=", 1)
+            conf[k.strip()] = v.strip()
+
+    url   = conf.get("dashboard_url")
+    token = conf.get("dashboard_token")
+    if not url or not token:
+        return
+
+    # Build ADIF record string from contact dict
+    def af(tag, val):
+        if val:
+            v = str(val)
+            return f"<{tag}:{len(v)}>{v}"
+        return ""
+
+    date = contact.get("date", "").replace("-", "")
+    time = contact.get("utc", "").replace(":", "")[:4]
+
+    adif = (
+        af("CALL",      contact.get("callsign")) +
+        af("QSO_DATE",  date) +
+        af("TIME_ON",   time) +
+        af("BAND",      contact.get("band")) +
+        af("FREQ",      contact.get("freq")) +
+        af("MODE",      contact.get("mode")) +
+        af("RST_SENT",  contact.get("rst_sent")) +
+        af("RST_RCVD",  contact.get("rst_rcvd")) +
+        af("GRIDSQUARE",contact.get("qth_grid")) +
+        af("QTH",       contact.get("qth_display")) +
+        af("COMMENT",   contact.get("notes")) +
+        "<EOR>"
+    )
+
+    payload = json.dumps({"adif": adif}).encode()
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        headers={
+            "Content-Type":  "application/json",
+            "Authorization": f"Bearer {token}",
+        },
+        method="POST",
+    )
+    try:
+        urllib.request.urlopen(req, timeout=3, context=__import__('ssl')._create_unverified_context())
+    except Exception:
+        open(str(Path.home() / 'dashboard_debug.log'), 'a').write(__import__('traceback').format_exc() + '\n')
+
 def quick_log_form(stdscr, conn: sqlite3.Connection,
                    rows: list) -> dict | None:
     """
@@ -2521,6 +2582,7 @@ def main(stdscr):
             if contact:
                 new_id, band_ok = db_insert(conn, contact)
                 refresh_rows()
+                _post_to_dashboard(contact)
                 sel     = 0
                 new_row = conn.execute(
                     "SELECT * FROM contacts WHERE id=?", (new_id,)
@@ -2536,6 +2598,7 @@ def main(stdscr):
             if contact:
                 new_id, band_ok = db_insert(conn, contact)
                 refresh_rows()
+                _post_to_dashboard(contact)
                 sel     = 0
                 new_row = conn.execute(
                     "SELECT * FROM contacts WHERE id=?", (new_id,)
