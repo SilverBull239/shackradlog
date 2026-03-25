@@ -534,7 +534,7 @@ def _post_to_dashboard(contact: dict) -> None:
     try:
         urllib.request.urlopen(req, timeout=3, context=__import__('ssl')._create_unverified_context())
     except Exception:
-        open(str(Path.home() / 'dashboard_debug.log'), 'a').write(__import__('traceback').format_exc() + '\n')
+        pass
 
 def quick_log_form(stdscr, conn: sqlite3.Connection,
                    rows: list) -> dict | None:
